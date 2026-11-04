@@ -73,6 +73,7 @@ def build_response(method, source, headers, query):
         f"Connection: close\r\n"
         f"\r\n"
     ).encode()
+
     return head + body
 
 
